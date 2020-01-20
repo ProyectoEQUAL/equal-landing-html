@@ -5954,12 +5954,10 @@ textarea.form-control:active {
 }
 
 .navbar .logo-container {
-  width: 27px;
-  height: 27px;
+  width: 10em;
+  height: 5em;
   overflow: hidden;
   margin: 0 auto;
-  border-radius: 50%;
-  border: 1px solid transparent;
 }
 
 .navbar .navbar-brand {
@@ -6024,7 +6022,7 @@ textarea.form-control:active {
 }
 
 .navbar.bg-white:not(.navbar-transparent) .logo-container {
-  border: 1px solid #888888;
+  border: 1px solid transparent;
 }
 
 .bg-default {
@@ -10825,8 +10823,10 @@ img {
 }
 
 .logo {
-  min-height: 10em;
-  min-width: 20em
+  min-height: 5em;
+  min-width: 5em;
+  max-width: 10em;
+  max-height: 10em;
 }
 
 @media screen and (max-width: 580px) {
@@ -10937,6 +10937,10 @@ img {
 
 .aquateal-font {
   color:#4EBFAB
+}
+
+.coldblue-font {
+  color: #5D84A6;
 }
 
 .fluor {
