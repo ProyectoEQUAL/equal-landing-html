@@ -9585,7 +9585,7 @@ img {
 }
 
 .download {
-  background-color: #5D84A6;
+  background-color: #4EBFAB;
 }
 
 .download:hover {
@@ -9593,7 +9593,8 @@ img {
 }
 
 .estudi {
-  background-color: #4EBFAB;
+  background-color: #fff;
+  color: #5D84A6;
 }
 
 .estudi:hover {
