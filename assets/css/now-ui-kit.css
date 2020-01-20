@@ -3491,7 +3491,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-  background-color: #fa7a50;
+  background-color: #f2e313;
   color: #FFFFFF;
   box-shadow: none;
 }
@@ -9340,7 +9340,7 @@ img {
   left: 0;
   top: 0;
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(93, 132, 166, 1);
 }
 
 .section-image .container {
@@ -9485,6 +9485,10 @@ img {
   padding: 40px 0;
 }
 
+.main-theme {
+  background-color: #5D84A6;
+}
+
 .page-header .carousel .carousel-indicators {
   bottom: 60px;
 }
@@ -9571,6 +9575,31 @@ img {
 .header-2 .page-header .card,
 .header-1 .page-header .card {
   margin-top: 60px;
+}
+
+#participa:hover {
+  background-color: #5D84A6;
+}
+
+#participa {
+  margin-top: -0.05em;
+  background-color: rgba(242, 227, 19, 0.9);
+}
+
+.download {
+  background-color: #5D84A6;
+}
+
+.download:hover {
+  background-color: rgba(242, 227, 19, 0.9);
+}
+
+.estudi {
+  background-color: #4EBFAB;
+}
+
+.estudi:hover {
+  background-color: rgba(242, 227, 19, 0.9);
 }
 
 .header-3 .btn {
@@ -10188,7 +10217,7 @@ img {
     /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(white 0%, #000 80%);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white0%, #000 80%);
+    background: -moz-linear-gradient(white 0%, #000 80%);
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(#5D84A6 0%, #000 80%);
     /* Standard syntax (must be last) */
@@ -10430,7 +10459,7 @@ img {
     right: auto;
     left: 300px;
   }
-}
+
 
 @media screen and (min-width: 992px) {
   .navbar-nav .nav-link.profile-photo {
@@ -10996,3 +11025,4 @@ img {
 }
 
 /*# sourceMappingURL=kit-pro.css.map */
+}
